@@ -1,5 +1,9 @@
 {
-  "name": "reactotron-mobx-keystone",
+  "name": "@hawkingnetwork/reactotron-mobx-keystone",
+  "author": {
+    "name": "Dung Lam",
+    "email": "dung.lam@hawking.network"
+  },
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/reactotron-mobx-keystone.esm.js",
@@ -27,11 +31,18 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
+    "@types/ramda": "^0.26.21",
     "husky": "^3.0.5",
+    "mobx": "^5.13.0",
+    "mobx-keystone": "^0.17.0",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
+    "ramda": "^0.26.1",
+    "reactotron-core-client": "^2.8.3",
+    "testdouble": "^3.12.4",
     "tsdx": "^0.9.0",
     "tslib": "^1.10.0",
     "typescript": "^3.6.2"
-  }
+  },
+  "dependencies": {}
 }
