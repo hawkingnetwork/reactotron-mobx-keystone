@@ -4,6 +4,9 @@
     "name": "Dung Lam",
     "email": "dung.lam@hawking.network"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/reactotron-mobx-keystone.esm.js",
@@ -15,7 +18,8 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "lint": "tsdx lint"
+    "lint": "tsdx lint",
+    "release": "release-it"
   },
   "peerDependencies": {},
   "husky": {
@@ -39,6 +43,7 @@
     "pretty-quick": "^1.11.1",
     "ramda": "^0.26.1",
     "reactotron-core-client": "^2.8.3",
+    "release-it": "^12.3.6",
     "testdouble": "^3.12.4",
     "tsdx": "^0.9.0",
     "tslib": "^1.10.0",
